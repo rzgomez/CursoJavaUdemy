@@ -24,9 +24,9 @@ public class FI_from_API {
         FI_from_API fiAPI = new FI_from_API();
 //        fiAPI.predicate();
 //        fiAPI.supplier();
-        fiAPI.consumer();
+//        fiAPI.consumer();
 //        fiAPI.function();
-//        fiAPI.unaryBinaryOperator();
+        fiAPI.unaryBinaryOperator();
     }
     public void predicate() {
         // Predicate<T> is a functional interface i.e. one abstract method:
@@ -63,6 +63,11 @@ public class FI_from_API {
         List<String> names = new ArrayList<>();
         names.add("John");names.add("Mary");
         names.forEach(printC);  // John, Mary
+        //Lo anterior equivale al siguiente codigo:
+        //for (String name : names) {
+        //    printC.accept(name);
+        //}
+
 
         // BiConsumer<T, U> is a functional interface i.e. one abstract method:
         //      void accept(T t, U u)
