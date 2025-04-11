@@ -29,7 +29,7 @@ public class LambdaEffectivelyFinal {
         
         // If 'x' was allowed to change, then the method and the lambda would 
         // have 2 different views of 'x'!
-        //x++; 
+        //x++;
         filterData(al, lambda);// lambda views 'x' as 12
         // some code...
         
