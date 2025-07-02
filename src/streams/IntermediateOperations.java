@@ -31,8 +31,11 @@ class Person{
 public class IntermediateOperations {
     public static void main(String[] args) {
         //doSorted2();
-        //doLimit();   
+        //doLimit();
         doSortedOther();
+        //doFilter();
+        //doDistinct();
+        //doLimit();
     }
     public static void doSortedOther() {
         

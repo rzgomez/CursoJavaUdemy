@@ -7,9 +7,9 @@ public class InfiniteStreams {
 //        for(int i=1; i<50; i++){
 //            System.out.println(rand());
 //        }
-
-        iterate();
-//        iterateWithLimit();
+        //generate();
+        //iterate();
+        iterateWithLimit();
 
 
     }

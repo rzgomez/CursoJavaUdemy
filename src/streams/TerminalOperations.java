@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 public class TerminalOperations {
     public static void main(String[] args) {
 //        doMinAndMax();
-        doReduce3();
+        //doReduce3();
     }
     public static void doCollect1(){
         
